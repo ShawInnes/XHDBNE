@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 
 using Xamarin.Forms.Platform.Android;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace MobileApp.Droid
 {
@@ -17,6 +18,8 @@ namespace MobileApp.Droid
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
+
+			CurrentPlatform.Init();
 
 			Xamarin.Forms.Forms.Init(this, bundle);
 
