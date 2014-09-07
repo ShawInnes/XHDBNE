@@ -2,7 +2,7 @@
 using System.Web.Http;
 using Microsoft.WindowsAzure.Mobile.Service;
 
-namespace xhdbneService
+namespace XHDBNE.Service
 {
     public static class WebApiConfig
     {

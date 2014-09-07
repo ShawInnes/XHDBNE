@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.WindowsAzure.Mobile.Service;
-using xhdbneService.DataObjects;
-using xhdbneService.Models;
+using XHDBNE.Service.DataObjects;
+using XHDBNE.Service.Models;
 
-namespace xhdbneService
+namespace XHDBNE.Service
 {
 	public class DbInitializer : ClearDatabaseSchemaIfModelChanges<DataContext>
 	{

@@ -3,9 +3,9 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using Microsoft.WindowsAzure.Mobile.Service;
 using Microsoft.WindowsAzure.Mobile.Service.Tables;
-using xhdbneService.DataObjects;
+using XHDBNE.Service.DataObjects;
 
-namespace xhdbneService.Models
+namespace XHDBNE.Service.Models
 {
     public class DataContext : DbContext
     {

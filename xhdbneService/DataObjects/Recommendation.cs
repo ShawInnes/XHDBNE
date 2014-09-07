@@ -1,6 +1,6 @@
 ﻿using Microsoft.WindowsAzure.Mobile.Service;
 
-namespace xhdbneService.DataObjects
+namespace XHDBNE.Service.DataObjects
 {
 	public class Recommendation : EntityData, IRecommendation
 	{

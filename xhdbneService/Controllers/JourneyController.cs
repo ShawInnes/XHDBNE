@@ -4,16 +4,17 @@ using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.OData;
 using Microsoft.WindowsAzure.Mobile.Service;
-using xhdbneService.DataObjects;
-using xhdbneService.Models;
+using XHDBNE.Service.DataObjects;
+using XHDBNE.Service.Models;
 
-namespace xhdbneService.Controllers
+namespace XHDBNE.Service.Controllers
 {
     public class JourneyController : TableController<Journey>
     {
         protected override void Initialize(HttpControllerContext controllerContext)
         {
             base.Initialize(controllerContext);
+
             DataContext context = new DataContext();
 			DomainManager = new EntityDomainManager<Journey>(context, Request, Services);
         }

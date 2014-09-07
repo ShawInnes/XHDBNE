@@ -7,7 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-
+using Microsoft.WindowsAzure.MobileServices;
 using Xamarin.Forms;
 
 
@@ -20,6 +20,7 @@ namespace MobileApp.WinPhone
 			InitializeComponent();
 
 			Forms.Init();
+
 			Content = MobileApp.App.GetMainPage().ConvertPageToUIElement(this);
 		}
 	}

@@ -1,4 +1,4 @@
-﻿namespace xhdbneService.DataObjects
+﻿namespace XHDBNE.Service.DataObjects
 {
 	public interface IRecommendation
 	{
